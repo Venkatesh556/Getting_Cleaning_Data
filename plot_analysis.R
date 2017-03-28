@@ -48,5 +48,6 @@ colnames(data)<-gsub("Mag", "Magnitude", names(data))
 colnames(data)<-gsub("BodyBody", "Body", names(data))
 
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+library(dplyr)
 data1<-aggregate(.~sub+aname,data,mean)
 write.table(data1, file = "tidydata.txt",row.name=FALSE)
