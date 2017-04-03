@@ -8,7 +8,7 @@ Project Summary
 ===============
 The following is a summary description of the project instructions  
 
-You should create one R script called plot_analysis.R that does the following.  
+You should create one R script called run_analysis.R that does the following.  
 
 * Merges the training and the test sets to create one data set.  
 * Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -22,7 +22,7 @@ The code takes for granted all the data is present in the same folder, un-compre
 
 <mark>CodeBook.md</mark> describes the variables, the data, and any transformations or work that was performed to clean up the data.  
 
-<mark>plot_analysis.R</mark> contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.  
+<mark>run_analysis.R</mark> contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.  
 
 The output of the 5th step is called <mark>tidydata.txt</mark>, and uploaded in the course project's form.  
 

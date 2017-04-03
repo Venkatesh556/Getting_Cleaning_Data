@@ -15,7 +15,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-Functions used in plot_analysis.R
+Functions used in run_analysis.R
 ---------------------------------
 file.exists() - to check for directory "data",if it is not present it will create directory data using dir.create()  
 download.file() - It downloads Human Activity Recognition Using Smartphones data and keep it in data/Dataset.zip  
@@ -27,7 +27,7 @@ rbind - to bind rows
 subset - subset the data "data" and select only particler column names  
 gsub - substitute the particler pattern with the given pattern in all places  
 
-Variables used in plot_analysis.R
+Variables used in run_analysis.R
 ---------------------------------
 test, test_labels, test_subjects, train, train_labels, train_subjects, features and activity_labels are the assignment variables of files X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt, features.txt and activity_labels.txt.  
 data - actual data which comes after merge test and train data sets.  
