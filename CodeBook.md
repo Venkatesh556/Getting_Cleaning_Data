@@ -6,7 +6,7 @@ Additional information about the variables, data and transformations used in the
 
 Source Data
 -----------
-The dataset being used is: [Human Activity Recognition Using Smartphones] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  
+The dataset being used is: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"> Human Activity Recognition Using Smartphones </a>   
 
 
 Data Set Information
